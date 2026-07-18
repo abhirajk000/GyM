@@ -1,0 +1,117 @@
+{
+  "id": "back-biceps-abs",
+  "days": ["Tuesday", "Friday"],
+  "title": "Back + Biceps + Abs",
+  "workout": [
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown",
+      "muscle": "Back",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 90,
+      "gif": "/gifs/T&F-1_Back_Lat Pull Down.gif",
+      "notes": ""
+    },
+    {
+      "id": "seated-cable-row",
+      "name": "Seated Cable Row",
+      "muscle": "Back",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 90,
+      "gif": "/gifs/T&F-2_Back_Seated Cable Row.gif",
+      "notes": ""
+    },
+    {
+      "id": "deadlift",
+      "name": "Deadlift",
+      "muscle": "Back",
+      "sets": 4,
+      "reps": "8-10",
+      "rest": 120,
+      "gif": "/gifs/T&F-3_Back_Dead Lift.gif",
+      "notes": ""
+    },
+    {
+      "id": "bent-over-row",
+      "name": "Bent Over Row",
+      "muscle": "Back",
+      "sets": 3,
+      "reps": "10-12",
+      "rest": 90,
+      "gif": "/gifs/T&F-4_Back_Bent Over Row.gif",
+      "notes": ""
+    },
+    {
+      "id": "bicep-curl",
+      "name": "Bicep Curl",
+      "muscle": "Biceps",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 60,
+      "gif": "/gifs/T&F-1_Bicep_Bicep Curl.gif",
+      "notes": ""
+    },
+    {
+      "id": "close-grip-ez-curl",
+      "name": "Close Grip EZ Curl",
+      "muscle": "Biceps",
+      "sets": 3,
+      "reps": "12",
+      "rest": 60,
+      "gif": "/gifs/T&F-2_Bicep_Close Grip EZ Curl.gif",
+      "notes": ""
+    },
+    {
+      "id": "ez-bar-preacher-curl",
+      "name": "EZ Bar Preacher Curl",
+      "muscle": "Biceps",
+      "sets": 3,
+      "reps": "12",
+      "rest": 60,
+      "gif": "/gifs/T&F-3_Bicep_EZ Bar Preacher Curl.gif",
+      "notes": ""
+    },
+    {
+      "id": "hammer-curl",
+      "name": "Hammer Curl",
+      "muscle": "Biceps",
+      "sets": 3,
+      "reps": "12",
+      "rest": 60,
+      "gif": "/gifs/T&F-4_Bicep_Hammer Curl.gif",
+      "notes": ""
+    },
+    {
+      "id": "weighted-crunches",
+      "name": "Weighted Crunches",
+      "muscle": "Abs",
+      "sets": 3,
+      "reps": "15",
+      "rest": 45,
+      "gif": "/gifs/T&F-1_Abs_Weighted Crunches.gif",
+      "notes": ""
+    },
+    {
+      "id": "reverse-crunches",
+      "name": "Reverse Crunches",
+      "muscle": "Abs",
+      "sets": 3,
+      "reps": "15",
+      "rest": 45,
+      "gif": "/gifs/T&F-2_Abs_Reverse Crunches.gif",
+      "notes": ""
+    },
+    {
+      "id": "bicycle-crunches",
+      "name": "Bicycle Crunches",
+      "muscle": "Abs",
+      "sets": 3,
+      "reps": "20",
+      "rest": 45,
+      "gif": "/gifs/T&F-3_Abs_Bicycles Crunches.gif",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "chest-triceps",
+  "days": ["Monday", "Thursday"],
+  "title": "Chest + Triceps",
+  "workout": [
+    {
+      "id": "flat-bench-press",
+      "name": "Flat Bench Press",
+      "muscle": "Chest",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 90,
+      "gif": "/gifs/M&T-1_Chest_Flat Bench Press.gif",
+      "notes": ""
+    },
+    {
+      "id": "incline-bench-press",
+      "name": "Incline Bench Press",
+      "muscle": "Chest",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 90,
+      "gif": "/gifs/M&T-2_Chest_Incline Bench Press.gif",
+      "notes": ""
+    },
+    {
+      "id": "decline-bench-press",
+      "name": "Decline Bench Press",
+      "muscle": "Chest",
+      "sets": 3,
+      "reps": "12",
+      "rest": 90,
+      "gif": "/gifs/M&T-3_Chest_Decline Bench Press.gif",
+      "notes": ""
+    },
+    {
+      "id": "butterfly",
+      "name": "Butterfly",
+      "muscle": "Chest",
+      "sets": 3,
+      "reps": "15",
+      "rest": 60,
+      "gif": "/gifs/M&T-4_Chest_Butterfly.gif",
+      "notes": ""
+    },
+    {
+      "id": "tricep-bench-press",
+      "name": "Tricep Bench Press",
+      "muscle": "Triceps",
+      "sets": 4,
+      "reps": "12",
+      "rest": 90,
+      "gif": "/gifs/M&T-1_Tricep_Tricep Bench Press.gif",
+      "notes": ""
+    },
+    {
+      "id": "overhead-extension",
+      "name": "Overhead Extension",
+      "muscle": "Triceps",
+      "sets": 3,
+      "reps": "12",
+      "rest": 60,
+      "gif": "/gifs/M&T-2_Tricep_Overhead Extension.gif",
+      "notes": ""
+    },
+    {
+      "id": "pulley-pushdown",
+      "name": "Pulley Pushdown",
+      "muscle": "Triceps",
+      "sets": 3,
+      "reps": "15",
+      "rest": 60,
+      "gif": "/gifs/M&T-3_Tricep_Pulley Pushdown.gif",
+      "notes": ""
+    },
+    {
+      "id": "bent-over-kickback",
+      "name": "Bent Over Kickback",
+      "muscle": "Triceps",
+      "sets": 3,
+      "reps": "15",
+      "rest": 60,
+      "gif": "/gifs/M&T-4_Tricep_Bent Over Kickback.gif",
+      "notes": ""
+    }
+  ]
+}

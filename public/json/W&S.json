@@ -1,0 +1,107 @@
+{
+  "id": "legs-shoulders",
+  "days": ["Wednesday", "Saturday"],
+  "title": "Legs + Shoulders",
+  "workout": [
+    {
+      "id": "squat",
+      "name": "Squat",
+      "muscle": "Legs",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 120,
+      "gif": "/gifs/W&S-1_Legs_Squat.gif",
+      "notes": ""
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg Press",
+      "muscle": "Legs",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 90,
+      "gif": "/gifs/W&S-2_Legs_Leg Press.gif",
+      "notes": ""
+    },
+    {
+      "id": "leg-extension",
+      "name": "Leg Extension",
+      "muscle": "Legs",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": 60,
+      "gif": "/gifs/W&S-3_Legs_Legs Extension.gif",
+      "notes": ""
+    },
+    {
+      "id": "lying-leg-curl",
+      "name": "Lying Leg Curl",
+      "muscle": "Legs",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": 60,
+      "gif": "/gifs/W&S-4_Legs_Lying leg Curls.gif",
+      "notes": ""
+    },
+    {
+      "id": "seated-calf-raise",
+      "name": "Seated Calf Raise",
+      "muscle": "Legs",
+      "sets": 4,
+      "reps": "15-20",
+      "rest": 45,
+      "gif": "/gifs/W&S-5_Legs_Seated Calf Raise.gif",
+      "notes": ""
+    },
+    {
+      "id": "side-raise",
+      "name": "Side Raise",
+      "muscle": "Shoulders",
+      "sets": 4,
+      "reps": "12-15",
+      "rest": 60,
+      "gif": "/gifs/W&S-1_Shoulder_Side Raise.gif",
+      "notes": ""
+    },
+    {
+      "id": "front-raise",
+      "name": "Front Raise",
+      "muscle": "Shoulders",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": 60,
+      "gif": "/gifs/W&S-2_Shoulder_Front raise.gif",
+      "notes": ""
+    },
+    {
+      "id": "shoulder-press",
+      "name": "Shoulder Press",
+      "muscle": "Shoulders",
+      "sets": 4,
+      "reps": "10-12",
+      "rest": 90,
+      "gif": "/gifs/W&S-3_Shoulder_Shoulder Press.gif",
+      "notes": ""
+    },
+    {
+      "id": "reverse-pec-deck",
+      "name": "Reverse Pec Deck",
+      "muscle": "Shoulders",
+      "sets": 3,
+      "reps": "12-15",
+      "rest": 60,
+      "gif": "/gifs/W&S-4_Shoulder_Reverse Pec Deck.gif",
+      "notes": ""
+    },
+    {
+      "id": "shrugs",
+      "name": "Shrugs",
+      "muscle": "Shoulders",
+      "sets": 4,
+      "reps": "12-15",
+      "rest": 60,
+      "gif": "/gifs/W&S-5_Shoulder_Shrugs.gif",
+      "notes": ""
+    }
+  ]
+}
