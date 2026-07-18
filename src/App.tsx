@@ -660,7 +660,9 @@ export default function App() {
                           return (
                             <div
                               key={exercise.id}
-                              ref={(el) => (rowRefs.current[exercise.id] = el)}
+                              ref={(el) => {
+                              rowRefs.current[exercise.id] = el;
+                            }}
                               className="overflow-hidden rounded-[20px] border border-white/[0.06] bg-white/[0.035] backdrop-blur-xl transition-all duration-200 hover:border-white/[0.12] hover:bg-white/[0.055]"
                               style={isDone ? { borderColor: `${groupColor}55` } : undefined}
                             >
