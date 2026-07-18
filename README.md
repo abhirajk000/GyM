@@ -1,75 +1,142 @@
-# React + TypeScript + Vite
+# 🏋️ Gym Workout Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium mobile-first Gym Workout Tracker built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+Designed as a lightweight Progressive Web App (PWA) for tracking daily workouts completely offline.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📅 Weekly workout schedule
+- 💪 Push / Pull / Legs workout split
+- 🎯 Exercise completion tracking
+- 📈 Live workout progress ring
+- 🖼️ Exercise GIF previews
+- 📱 Mobile-first responsive UI
+- 🌙 Modern dark theme
+- 💾 Offline data storage using LocalStorage
+- ⚡ Progressive Web App (PWA)
+- 📲 Installable on Android & iPhone
+- 🔒 Past/Future workouts are view-only
+- 🚀 Works offline after first visit
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📅 Workout Split
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Day | Workout |
+|------|----------|
+| Monday | Chest + Triceps |
+| Tuesday | Back + Biceps + Abs |
+| Wednesday | Legs + Shoulders |
+| Thursday | Chest + Triceps |
+| Friday | Back + Biceps + Abs |
+| Saturday | Legs + Shoulders |
+| Sunday | Rest Day |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Vite Plugin PWA
+- LocalStorage
+- JSON-based workout configuration
 
+---
+
+## 📂 Project Structure
+
+```text
+public/
+├── gifs/
+├── json/
+│   ├── M&T.json
+│   ├── T&F.json
+│   └── W&S.json
+└── icons/
+
+src/
+├── components/
+├── App.tsx
+├── main.tsx
+└── index.css
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository
 
+```bash
+git clone https://github.com/abhirajk000/GyM.git
 ```
+
+Go into the project
+
+```bash
+cd GyM/gym-tracker
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📱 Install on iPhone
+
+1. Open the deployed website in **Safari**.
+2. Tap **Share**.
+3. Tap **Add to Home Screen**.
+4. Launch it like a native app.
+
+---
+
+## 📸 Screenshots
+
+_Add screenshots here._
+
+---
+
+## 🔮 Future Improvements
+
+- Weight tracking
+- Workout history
+- Cloud sync
+- Multiple workout plans
+- Exercise search
+- Statistics & charts
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by **Abhiraj**
