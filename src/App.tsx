@@ -605,15 +605,24 @@ export default function App() {
             >
               {/* WORKOUT HEADER */}
               <div className="pb-2 pt-8">
-                <button
-                  onClick={() => setView("home")}
-                  className="mb-5 flex items-center gap-1.5 text-[13px] font-semibold text-slate-300 transition hover:text-white"
-                >
-                  <ArrowLeft size={16} />
-                  Back
-                </button>
+               <motion.button
+                whileTap={{ scale: 0.95 }}
+                whileHover={{ scale: 1.02 }}
+                onClick={() => setView("home")}
+                className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.05] px-4 py-2 text-sm font-semibold text-slate-300 backdrop-blur-xl transition-all hover:border-white/20 hover:bg-white/[0.08] hover:text-white"
+              >
+                <ArrowLeft size={16} />
+                Back
+              </motion.button>
 
-                <div className="flex items-center gap-5 rounded-[28px] border border-white/[0.06] bg-white/[0.035] p-5 backdrop-blur-xl">
+                <div
+  className="flex items-center gap-5 rounded-[28px] border p-5 backdrop-blur-xl shadow-lg"
+  style={{
+    background:
+      "linear-gradient(135deg, rgba(167,139,250,0.16), rgba(56,189,248,0.06))",
+    borderColor: "rgba(167,139,250,0.22)",
+  }}
+>
                   <ActivityRing percent={percent} size={84} strokeWidth={8}>
                     <span className="text-sm font-extrabold tabular-nums text-white">{completedCount}/{totalCount}</span>
                   </ActivityRing>
